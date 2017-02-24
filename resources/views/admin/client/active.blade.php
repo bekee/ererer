@@ -30,7 +30,7 @@
 						@foreach($actives as $key => $active)
 							<tr>
 								<td class="text-center">{{++$key}}</td>
-								<td>{{$active->client}} {{$active->client}}</td>
+								<td>{{$active->client}}</td>
 								<td>{{$active->email}} </td>
 								<td>{{$active->phone}} </td>
 								<td>{{$active->getReferral->count()}} </td>
